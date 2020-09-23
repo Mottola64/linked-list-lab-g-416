@@ -5,3 +5,8 @@ function getName(node) {
 function headNode(linkedList, collection) {
   return collection[linkedList]
 }
+
+function next(node) {
+  let nextAddress = node[1]
+  return collection[nextAddress]
+}
